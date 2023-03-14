@@ -5,4 +5,10 @@
 
 function timeConversion(s) {
   // Write your code here
+  const normalTime = s;
+  const [hour, minute, second] = normalTime;
+  normalTime.split(":", -2);
+  console.log(minute);
 }
+
+timeConversion("12:30:52");
